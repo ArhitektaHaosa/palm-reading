@@ -50,3 +50,11 @@ Palm photographs and the customer email are used only to write and send that rea
 Site copy, report template, and visual identity: all rights reserved. A paid report is for the person who bought it. It is not a license to republish the text as a service.
 
 Palmistry as entertainment. Not a science.
+
+## GitHub Pages
+
+In the repository: Settings → Pages → Deploy from a branch → `main` / `/`.
+
+Public URL after that: https://arhitektahaosa.github.io/palm-reading/
+
+The token used to create this repo could not turn Pages on. That switch is yours.
