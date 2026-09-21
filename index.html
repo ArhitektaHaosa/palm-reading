@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palm Desk — a reading of the lines. Not a science.</title>
+  <meta name="description" content="Palm Desk: a $10 entertainment palm reading. Not a science. Written English report by email within two working days.">
+  <meta name="theme-color" content="#f3efe6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;1,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --fg: #1c1917;
+      --muted: #6f675e;
+      --card: #fffdf8;
+      --line: #d4cdc0;
+      --slate: #44545c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--fg); font-family: Figtree, "Segoe UI", sans-serif; }
+    body { min-height: 100dvh; }
+    a { color: inherit; }
+    h1, h2, h3 { font-family: Fraunces, "Times New Roman", serif; font-weight: 500; text-wrap: balance; }
+    p { text-wrap: pretty; line-height: 1.55; }
+    header, footer, main { max-width: 42rem; margin: 0 auto; padding: 0 1.25rem; }
+    header { display: flex; align-items: center; justify-content: space-between; height: 4rem; border-bottom: 1px solid var(--line); max-width: none; padding: 0 1.25rem; }
+    header .inner, footer .inner { max-width: 42rem; margin: 0 auto; width: 100%; display: flex; align-items: center; justify-content: space-between; }
+    .wordmark { font-family: Fraunces, serif; font-style: italic; font-size: 1.25rem; text-decoration: none; }
+    .kicker { font-size: 0.875rem; font-weight: 500; letter-spacing: 0.04em; color: var(--slate); }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); font-style: italic; letter-spacing: -0.03em; margin: 0.5rem 0 1rem; }
+    .lede { color: var(--muted); max-width: 36rem; }
+    .banner { background: var(--card); border-block: 1px solid var(--line); padding: 1.5rem 1.25rem; margin: 2.5rem 0; }
+    .banner p { max-width: 42rem; margin: 0 auto; }
+    section { padding: 0.5rem 0 1.5rem; }
+    .grid { display: grid; gap: 1rem; }
+    @media (min-width: 640px) { .grid.two { grid-template-columns: 1fr 1fr; } }
+    article { background: var(--card); border: 1px solid var(--line); border-radius: 1.25rem; padding: 1.25rem; }
+    article h3 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+    article p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    ol.steps { list-style: none; padding: 0; display: grid; gap: 1.25rem; }
+    @media (min-width: 768px) { ol.steps { grid-template-columns: 1fr 1fr 1fr; } }
+    ol.steps li { border-top: 1px solid var(--line); padding-top: 1rem; }
+    .n { font-size: 0.7rem; letter-spacing: 0.16em; font-weight: 500; color: var(--slate); }
+    form { display: grid; gap: 1.1rem; margin-top: 1.5rem; }
+    label.field { display: grid; gap: 0.4rem; font-size: 0.9rem; font-weight: 500; }
+    input[type="email"], input[type="text"] {
+      height: 2.75rem; border: 1px solid var(--line); border-radius: 0.75rem;
+      padding: 0 0.75rem; font: inherit; background: var(--card); color: var(--fg);
+    }
+    .consent { display: flex; gap: 0.75rem; align-items: flex-start; background: var(--card); border: 1px solid var(--line); border-radius: 1.25rem; padding: 1rem; font-size: 0.9rem; font-weight: 400; line-height: 1.45; }
+    .consent input { margin-top: 0.2rem; width: 1.15rem; height: 1.15rem; accent-color: var(--slate); }
+    button, .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      height: 3rem; padding: 0 1.25rem; border: 0; border-radius: 0.75rem;
+      background: var(--fg); color: var(--bg); font: inherit; font-weight: 500; cursor: pointer;
+      text-decoration: none;
+    }
+    button.ghost, a.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+    .err { color: #8a3a32; font-size: 0.9rem; }
+    .ready { background: var(--card); border: 1px solid var(--line); border-radius: 1.25rem; padding: 1.25rem; display: grid; gap: 0.75rem; }
+    footer { border-top: 1px solid var(--line); padding: 2.5rem 1.25rem; color: var(--muted); font-size: 0.9rem; max-width: none; }
+    footer .inner { display: block; max-width: 42rem; }
+    .hidden { display: none; }
+    .row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.5rem 0 2.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a class="wordmark" href="./">Palm Desk</a>
+      <a href="#order">Order</a>
+    </div>
+  </header>
+
+  <main>
+    <p class="kicker" style="margin-top:2.5rem">Palm reading · $10</p>
+    <h1>A reading of the lines. Not a science.</h1>
+    <p class="lede">Send a photograph of one palm, or both. Pay $10 through PayPal. A written English report arrives by email within two working days.</p>
+    <div class="row">
+      <a class="btn" href="#order">Order a reading</a>
+      <a class="btn ghost" href="docs/PHOTO-GUIDE.md">How to photograph</a>
+    </div>
+  </main>
+
+  <div class="banner">
+    <p>Palm reading is entertainment and folklore. It is not a science. It does not predict the future. It is not medical, psychological, legal, or financial advice. <a href="DISCLAIMER.md">Full disclaimer</a>.</p>
+  </div>
+
+  <main>
+    <section>
+      <h2>What you receive</h2>
+      <p class="lede">A short literary reading of the lines as they appear in your photograph. Folklore craft, written in English. Not a diagnosis. Not a forecast.</p>
+      <div class="grid two" style="margin-top:1.5rem">
+        <article>
+          <h3>Hand shape</h3>
+          <p>The form of the palm and fingers, read as a traditional type — earth, air, fire, or water — as a storytelling frame, not a temperament test.</p>
+        </article>
+        <article>
+          <h3>Three major lines</h3>
+          <p>Life, head, and heart lines as they show in the photo. Length of the life line is not a lifespan. It is not read that way here.</p>
+        </article>
+        <article>
+          <h3>Fate line, if present</h3>
+          <p>A note on the fate line when it is visible. Breaks are treated as pattern, not prophecy.</p>
+        </article>
+        <article>
+          <h3>Second palm, if you send it</h3>
+          <p>One palm is enough. Both palms let the reading mark the dominant hand against the quieter one. Same price either way.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <div class="n">01</div>
+          <h3>Photograph</h3>
+          <p class="lede">One open palm in daylight, fingers slightly apart, no filter. Both palms if you want them.</p>
+        </li>
+        <li>
+          <div class="n">02</div>
+          <h3>Pay $10</h3>
+          <p class="lede">PayPal to mapkomah@gmail.com. Keep the order ID. That ID matches payment, photo, and report.</p>
+        </li>
+        <li>
+          <div class="n">03</div>
+          <h3>Report by email</h3>
+          <p class="lede">A written reading in English, within two working days after a usable photo and a completed payment. Monday–Friday.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="order">
+      <p class="kicker">Order · $10</p>
+      <h2>A reading of one palm, or both</h2>
+      <p class="lede">PayPal takes the $10. Then email the photograph to mapkomah@gmail.com with the order ID. PayPal cannot carry image files.</p>
+
+      <form id="desk-form">
+        <label class="field">Email for the report
+          <input id="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        </label>
+        <label class="field">Name to use in the report (optional)
+          <input id="given" type="text" autocomplete="nickname">
+        </label>
+        <label class="consent">
+          <input id="consent" type="checkbox">
+          <span>I understand this is entertainment, not science. It does not predict the future. It is not medical, psychological, legal, or financial advice. Photographs are used only to write and send this reading.</span>
+        </label>
+        <p class="err hidden" id="err"></p>
+        <button type="submit">Prepare order $10</button>
+      </form>
+
+      <div class="ready hidden" id="ready">
+        <p class="kicker">Order ID</p>
+        <h3 id="oid" style="margin:0;font-style:italic;font-size:1.6rem"></h3>
+        <p class="lede">Pay $10 with PayPal. Then email the palm photograph(s) to mapkomah@gmail.com with this order ID in the subject.</p>
+        <form id="paypal" method="post" action="https://www.paypal.com/cgi-bin/webscr">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="mapkomah@gmail.com">
+          <input type="hidden" name="item_name" value="Palm Desk reading (entertainment, not science)">
+          <input type="hidden" name="amount" value="10.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="item_number" id="pp-item" value="">
+          <input type="hidden" name="custom" id="pp-custom" value="">
+          <button type="submit">Pay $10 with PayPal</button>
+        </form>
+        <a class="btn ghost" id="mail" href="mailto:mapkomah@gmail.com">Open the photo email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="inner">
+      <p style="font-family:Fraunces,serif;font-style:italic;color:var(--fg)">Palm Desk</p>
+      <p>Entertainment only. Not a science. Not a prediction. Desk: <a href="mailto:mapkomah@gmail.com">mapkomah@gmail.com</a></p>
+      <p><a href="DISCLAIMER.md">Disclaimer</a> · <a href="docs/PHOTO-GUIDE.md">Photograph</a> · <a href="LICENSE">License</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById("desk-form");
+    const err = document.getElementById("err");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const email = document.getElementById("email").value.trim();
+      const given = document.getElementById("given").value.trim();
+      const consent = document.getElementById("consent").checked;
+      err.classList.add("hidden");
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        err.textContent = "Enter the email that should receive the report.";
+        err.classList.remove("hidden");
+        return;
+      }
+      if (!consent) {
+        err.textContent = "The consent line has to be checked. This is not a science.";
+        err.classList.remove("hidden");
+        return;
+      }
+      const d = new Date();
+      const stamp = d.getFullYear() + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0");
+      const id = "PD-" + stamp + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+      document.getElementById("oid").textContent = id;
+      document.getElementById("pp-item").value = id;
+      document.getElementById("pp-custom").value = id + " | " + email;
+      const sub = encodeURIComponent("Palm Desk order " + id);
+      const body = encodeURIComponent(
+        "Order ID: " + id + "\nEmail for the report: " + email + (given ? "\nName: " + given : "") +
+        "\n\nPlease find the palm photograph(s) attached.\n\nI understand this is entertainment, not science."
+      );
+      document.getElementById("mail").href = "mailto:mapkomah@gmail.com?subject=" + sub + "&body=" + body;
+      document.getElementById("ready").classList.remove("hidden");
+      document.getElementById("ready").scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
