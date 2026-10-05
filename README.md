@@ -2,11 +2,11 @@
 
 **Entertainment palm reading. Not a science.**
 
-One palm: **$10 USD**. Both palms: **$20 USD**.
+One hand: **$10 USD**. Two hands: **$20 USD**.
 
-Checkout: [arhitektahaosa.gumroad.com/l/palmreading](https://arhitektahaosa.gumroad.com/l/palmreading)
+Checkout, and only this checkout: [arhitektahaosa.gumroad.com/l/palmreading](https://arhitektahaosa.gumroad.com/l/palmreading)
 
-Report: English, by email, within two working days after payment **and** a usable palm photograph.
+Report: English, by email, within two working days after payment **and** a usable palm photograph of the hands that were paid for.
 
 Public repository: [github.com/ArhitektaHaosa/palm-reading](https://github.com/ArhitektaHaosa/palm-reading)
 
@@ -14,12 +14,12 @@ This repo is the public record of the service: what is sold, what is not claimed
 
 ## What a customer does
 
-1. Photograph one open palm in daylight. Both palms if they want both readings.
-2. Pay on Gumroad. One palm is $10. Both palms are $20.
+1. Photograph one open hand in daylight. Two hands if that is the order.
+2. Pay only on Gumroad at `https://arhitektahaosa.gumroad.com/l/palmreading`. One hand is $10. Two hands are $20.
 3. Email the photograph(s) to `mapkomah@gmail.com` with the Gumroad sale ID in the subject.
 4. Receive a written English report within two working days (Monday–Friday).
 
-Gumroad does not carry the photograph. The photograph has to come by email.
+Gumroad does not carry the photograph. The photograph has to come by email. There is no PayPal checkout.
 
 ## What this is not
 
@@ -39,9 +39,9 @@ Full text: [DISCLAIMER.md](DISCLAIMER.md)
 
 ## Price and payment
 
-- One palm: **$10 USD**
-- Both palms: **$20 USD**
-- Processor: Gumroad
+- One hand: **$10 USD**
+- Two hands: **$20 USD**
+- Processor: Gumroad only
 - Product: `https://arhitektahaosa.gumroad.com/l/palmreading`
 - Photograph email: `mapkomah@gmail.com`
 - Item name: `Palm Desk reading (entertainment, not science)`

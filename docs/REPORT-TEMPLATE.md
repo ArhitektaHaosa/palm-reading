@@ -5,15 +5,16 @@ Every report starts with the disclaimer. Do not skip it. Do not soften it.
 
 ---
 
-Subject: `Palm Desk reading — {ORDER_ID}`
+Subject: `Palm Desk reading — {SALE_ID}`
 
 ---
 
 # Palm Desk reading
 
-**Order:** {ORDER_ID}  
+**Sale:** {SALE_ID}  
+**Paid:** $10 one hand / $20 two hands  
 **For:** {NAME_OR_EMAIL}  
-**Palms received:** one / both  
+**Hands received:** one / two  
 **Dominant hand (as stated):** left / right  
 **Written:** {DATE}
 
@@ -41,9 +42,9 @@ This is an entertainment reading of palm lines from a photograph. Palmistry is f
 
 {If present: path and interruptions. If absent: say it is absent. Do not invent one.}
 
-## The other hand (only if both photographs arrived)
+## The other hand (only if $20 was paid and both photographs arrived)
 
-{Contrast with the dominant hand. One short paragraph. If only one palm arrived, delete this section.}
+{Contrast with the first hand. One short paragraph. If only one hand was paid for, delete this section.}
 
 ## Close
 

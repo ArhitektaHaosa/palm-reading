@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Palm Desk — a reading of the lines. Not a science.</title>
-  <meta name="description" content="Palm Desk: an entertainment palm reading. Not a science. One palm $10, both palms $20. Written English report by email within two working days.">
+  <meta name="description" content="Palm Desk: an entertainment palm reading. Not a science. One hand $10. Two hands $20. Written English report by email within two working days.">
   <meta name="theme-color" content="#f3efe6">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,6 +60,8 @@
     button.ghost, a.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
     .err { color: #8a3a32; font-size: 0.9rem; }
     .ready { background: var(--card); border: 1px solid var(--line); border-radius: 1.25rem; padding: 1.25rem; display: grid; gap: 0.75rem; }
+    .prices { display: grid; gap: 0.75rem; }
+    @media (min-width: 640px) { .prices { grid-template-columns: 1fr 1fr; } }
     footer { border-top: 1px solid var(--line); padding: 2.5rem 1.25rem; color: var(--muted); font-size: 0.9rem; max-width: none; }
     footer .inner { display: block; max-width: 42rem; }
     .hidden { display: none; }
@@ -75,9 +77,9 @@
   </header>
 
   <main>
-    <p class="kicker" style="margin-top:2.5rem">Palm reading · $10 or $20</p>
+    <p class="kicker" style="margin-top:2.5rem">Palm reading · one hand $10 · two hands $20</p>
     <h1>A reading of the lines. Not a science.</h1>
-    <p class="lede">Send a photograph of one palm, or both. Pay on Gumroad. A written English report arrives by email within two working days after payment and a clear photograph.</p>
+    <p class="lede">One hand is $10. Two hands are $20. Pay only on Gumroad. A written English report arrives by email within two working days after payment and a clear photograph.</p>
     <div class="row">
       <a class="btn" href="#order">Order a reading</a>
       <a class="btn ghost" href="docs/PHOTO-GUIDE.md">How to photograph</a>
@@ -94,8 +96,12 @@
       <p class="lede">A short literary reading of the lines as they appear in your photograph. Folklore craft, written in English. Not a diagnosis. Not a forecast.</p>
       <div class="grid two" style="margin-top:1.5rem">
         <article>
-          <h3>Hand shape</h3>
-          <p>The form of the palm and fingers, read as a traditional type — earth, air, fire, or water — as a storytelling frame, not a temperament test.</p>
+          <h3>One hand — $10</h3>
+          <p>One clear palm photograph. Hand shape, life, head, and heart lines, and the fate line if it is visible.</p>
+        </article>
+        <article>
+          <h3>Two hands — $20</h3>
+          <p>Two clear palm photographs. The second hand is a second reading, not a free extra.</p>
         </article>
         <article>
           <h3>Three major lines</h3>
@@ -104,10 +110,6 @@
         <article>
           <h3>Fate line, if present</h3>
           <p>A note on the fate line when it is visible. Breaks are treated as pattern, not prophecy.</p>
-        </article>
-        <article>
-          <h3>Second palm</h3>
-          <p>One palm is $10. Both palms are $20. The second palm is a second reading, not a free extra.</p>
         </article>
       </div>
     </section>
@@ -118,12 +120,12 @@
         <li>
           <div class="n">01</div>
           <h3>Photograph</h3>
-          <p class="lede">One open palm in daylight, fingers slightly apart, no filter. Both palms if that is what you paid for.</p>
+          <p class="lede">One open hand in daylight, fingers slightly apart, no filter. Two hands if that is what you paid for.</p>
         </li>
         <li>
           <div class="n">02</div>
-          <h3>Pay</h3>
-          <p class="lede">Gumroad. One palm $10. Both palms $20. Keep the sale ID from the receipt.</p>
+          <h3>Pay on Gumroad</h3>
+          <p class="lede">One hand $10. Two hands $20. Only at arhitektahaosa.gumroad.com/l/palmreading. Keep the sale ID.</p>
         </li>
         <li>
           <div class="n">03</div>
@@ -135,8 +137,8 @@
 
     <section id="order">
       <p class="kicker">Order</p>
-      <h2>One palm $10. Both palms $20.</h2>
-      <p class="lede">The reading is written only after a successful Gumroad payment and a clear photograph. Gumroad does not take the image. Email it to mapkomah@gmail.com with the sale ID in the subject.</p>
+      <h2>One hand $10. Two hands $20.</h2>
+      <p class="lede">The reading is written only after a successful payment on Gumroad and a clear photograph of the hands you paid for. Gumroad does not take the image. Email it to mapkomah@gmail.com with the sale ID in the subject.</p>
 
       <form id="desk-form">
         <label class="field">Email for the report
@@ -150,13 +152,16 @@
           <span>I understand this is entertainment, not science. It does not predict the future. It is not medical, psychological, legal, or financial advice. Photographs are used only to write and send this reading.</span>
         </label>
         <p class="err hidden" id="err"></p>
-        <button type="submit">Continue to Gumroad</button>
+        <button type="submit">Choose a price</button>
       </form>
 
       <div class="ready hidden" id="ready">
-        <p class="kicker">Pay, then send the photograph</p>
-        <p class="lede">On Gumroad, choose one palm or both. After payment, email the clear photograph to mapkomah@gmail.com. Put the Gumroad sale ID in the subject.</p>
-        <a class="btn" href="https://arhitektahaosa.gumroad.com/l/palmreading" data-gumroad-single-product="true">Pay with Gumroad</a>
+        <p class="kicker">Pay only on Gumroad</p>
+        <p class="lede">Select the version that matches the photographs you will send. One hand is $10. Two hands are $20. Then email the clear photograph to mapkomah@gmail.com with the Gumroad sale ID in the subject.</p>
+        <div class="prices">
+          <a class="btn" href="https://arhitektahaosa.gumroad.com/l/palmreading" data-gumroad-single-product="true">One hand — $10</a>
+          <a class="btn" href="https://arhitektahaosa.gumroad.com/l/palmreading" data-gumroad-single-product="true">Two hands — $20</a>
+        </div>
         <a class="btn ghost" id="mail" href="mailto:mapkomah@gmail.com">Open the photo email</a>
       </div>
     </section>
@@ -165,7 +170,7 @@
   <footer>
     <div class="inner">
       <p style="font-family:Fraunces,serif;font-style:italic;color:var(--fg)">Palm Desk</p>
-      <p>Entertainment only. Not a science. Not a prediction. Photographs: <a href="mailto:mapkomah@gmail.com">mapkomah@gmail.com</a></p>
+      <p>Entertainment only. Not a science. Not a prediction. One hand $10. Two hands $20. Photographs: <a href="mailto:mapkomah@gmail.com">mapkomah@gmail.com</a></p>
       <p><a href="DISCLAIMER.md">Disclaimer</a> · <a href="docs/PHOTO-GUIDE.md">Photograph</a> · <a href="https://arhitektahaosa.gumroad.com/l/palmreading">Gumroad</a> · <a href="LICENSE">License</a></p>
     </div>
   </footer>
@@ -174,6 +179,7 @@
   <script>
     const form = document.getElementById("desk-form");
     const err = document.getElementById("err");
+    const payUrl = "https://arhitektahaosa.gumroad.com/l/palmreading";
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       const email = document.getElementById("email").value.trim();
@@ -190,10 +196,11 @@
         err.classList.remove("hidden");
         return;
       }
+      document.querySelectorAll(".prices a").forEach((a) => { a.href = payUrl; });
       const sub = encodeURIComponent("Palm Desk photo — Gumroad sale ID");
       const body = encodeURIComponent(
         "Gumroad sale ID: \nEmail for the report: " + email + (given ? "\nName: " + given : "") +
-        "\n\nPlease find the palm photograph(s) attached. One palm if the payment was $10. Both palms if the payment was $20.\n\nI understand this is entertainment, not science."
+        "\nPaid for: one hand ($10) or two hands ($20)\n\nPlease find the palm photograph(s) attached.\n\nI understand this is entertainment, not science."
       );
       document.getElementById("mail").href = "mailto:mapkomah@gmail.com?subject=" + sub + "&body=" + body;
       document.getElementById("ready").classList.remove("hidden");

@@ -2,11 +2,12 @@
 
 Palm Desk sells a written entertainment reading of palm lines from a photograph.
 
-- One palm: $10 USD. Both palms: $20 USD.
+- One hand: $10 USD. Two hands: $20 USD.
 - Language of the report: English
 - Delivery: email, within two working days after both a completed Gumroad payment and a usable photograph have arrived
-- Checkout: https://arhitektahaosa.gumroad.com/l/palmreading
+- Checkout, only this URL: https://arhitektahaosa.gumroad.com/l/palmreading
 - Photograph email: mapkomah@gmail.com, Gumroad sale ID in the subject
+- No PayPal checkout
 
 Palmistry is folklore. It is not a science. It is not a recognized diagnostic method. It does not predict the future. A report from this desk is a literary reading of creases in skin, written as craft, not as fact.
 
@@ -18,6 +19,6 @@ Photographs and the email address you send are used only to write and deliver th
 
 The report is for the person who paid for it. It is not a license to republish the text as a service, a product, or someone else’s work.
 
-If a photograph is unreadable (filter, blur, crop, or beauty mode), the desk will ask for another picture before the two working days start. If you pay and then do not send a photograph, there is nothing to read.
+If a photograph is unreadable (filter, blur, crop, or beauty mode), the desk will ask for another picture before the two working days start. If you pay and then do not send a photograph, there is nothing to read. A $10 payment covers one hand. A $20 payment covers two hands.
 
 Working days are Monday–Friday. Weekends and public holidays are not counted.
