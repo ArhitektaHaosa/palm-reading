@@ -2,10 +2,11 @@
 
 Palm Desk sells a written entertainment reading of palm lines from a photograph.
 
-- Price: $10 USD
+- One palm: $10 USD. Both palms: $20 USD.
 - Language of the report: English
-- Delivery: email, within two working days after both a completed PayPal payment and a usable photograph have arrived
-- PayPal: mapkomah@gmail.com
+- Delivery: email, within two working days after both a completed Gumroad payment and a usable photograph have arrived
+- Checkout: https://arhitektahaosa.gumroad.com/l/palmreading
+- Photograph email: mapkomah@gmail.com, Gumroad sale ID in the subject
 
 Palmistry is folklore. It is not a science. It is not a recognized diagnostic method. It does not predict the future. A report from this desk is a literary reading of creases in skin, written as craft, not as fact.
 

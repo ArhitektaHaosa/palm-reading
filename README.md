@@ -1,8 +1,11 @@
 # Palm Desk
 
-**$10 entertainment palm reading. Not a science.**
+**Entertainment palm reading. Not a science.**
 
-PayPal: `mapkomah@gmail.com`  
+One palm: **$10 USD**. Both palms: **$20 USD**.
+
+Checkout: [arhitektahaosa.gumroad.com/l/palmreading](https://arhitektahaosa.gumroad.com/l/palmreading)
+
 Report: English, by email, within two working days after payment **and** a usable palm photograph.
 
 Public repository: [github.com/ArhitektaHaosa/palm-reading](https://github.com/ArhitektaHaosa/palm-reading)
@@ -11,12 +14,12 @@ This repo is the public record of the service: what is sold, what is not claimed
 
 ## What a customer does
 
-1. Photograph one open palm in daylight (both palms if they want; same price).
-2. Pay **$10 USD** via PayPal to `mapkomah@gmail.com`.
-3. Email the photograph(s) to the same address with the order ID in the subject.
+1. Photograph one open palm in daylight. Both palms if they want both readings.
+2. Pay on Gumroad. One palm is $10. Both palms are $20.
+3. Email the photograph(s) to `mapkomah@gmail.com` with the Gumroad sale ID in the subject.
 4. Receive a written English report within two working days (Monday–Friday).
 
-PayPal does not carry image files. The photograph has to come by email.
+Gumroad does not carry the photograph. The photograph has to come by email.
 
 ## What this is not
 
@@ -31,15 +34,17 @@ Full text: [DISCLAIMER.md](DISCLAIMER.md)
 - [DISCLAIMER.md](DISCLAIMER.md) — public legal and honesty copy
 - [docs/PHOTO-GUIDE.md](docs/PHOTO-GUIDE.md) — how to shoot a readable palm
 - [docs/REPORT-TEMPLATE.md](docs/REPORT-TEMPLATE.md) — English report the desk fills
-- [docs/FULFILLMENT.md](docs/FULFILLMENT.md) — operator desk: match PayPal, write, send
+- [docs/FULFILLMENT.md](docs/FULFILLMENT.md) — operator desk: match Gumroad, write, send
 - [LICENSE](LICENSE) — all rights reserved
 
 ## Price and payment
 
-- Price: **$10 USD**, fixed.
-- Processor: PayPal
-- Business email: `mapkomah@gmail.com`
-- Item name to use: `Palm Desk reading (entertainment, not science)`
+- One palm: **$10 USD**
+- Both palms: **$20 USD**
+- Processor: Gumroad
+- Product: `https://arhitektahaosa.gumroad.com/l/palmreading`
+- Photograph email: `mapkomah@gmail.com`
+- Item name: `Palm Desk reading (entertainment, not science)`
 
 ## Privacy
 
@@ -56,5 +61,3 @@ Palmistry as entertainment. Not a science.
 In the repository: Settings → Pages → Deploy from a branch → `main` / `/`.
 
 Public URL after that: https://arhitektahaosa.github.io/palm-reading/
-
-The token used to create this repo could not turn Pages on. That switch is yours.

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Palm Desk — a reading of the lines. Not a science.</title>
-  <meta name="description" content="Palm Desk: a $10 entertainment palm reading. Not a science. Written English report by email within two working days.">
+  <meta name="description" content="Palm Desk: an entertainment palm reading. Not a science. One palm $10, both palms $20. Written English report by email within two working days.">
   <meta name="theme-color" content="#f3efe6">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,9 +75,9 @@
   </header>
 
   <main>
-    <p class="kicker" style="margin-top:2.5rem">Palm reading · $10</p>
+    <p class="kicker" style="margin-top:2.5rem">Palm reading · $10 or $20</p>
     <h1>A reading of the lines. Not a science.</h1>
-    <p class="lede">Send a photograph of one palm, or both. Pay $10 through PayPal. A written English report arrives by email within two working days.</p>
+    <p class="lede">Send a photograph of one palm, or both. Pay on Gumroad. A written English report arrives by email within two working days after payment and a clear photograph.</p>
     <div class="row">
       <a class="btn" href="#order">Order a reading</a>
       <a class="btn ghost" href="docs/PHOTO-GUIDE.md">How to photograph</a>
@@ -106,8 +106,8 @@
           <p>A note on the fate line when it is visible. Breaks are treated as pattern, not prophecy.</p>
         </article>
         <article>
-          <h3>Second palm, if you send it</h3>
-          <p>One palm is enough. Both palms let the reading mark the dominant hand against the quieter one. Same price either way.</p>
+          <h3>Second palm</h3>
+          <p>One palm is $10. Both palms are $20. The second palm is a second reading, not a free extra.</p>
         </article>
       </div>
     </section>
@@ -118,25 +118,25 @@
         <li>
           <div class="n">01</div>
           <h3>Photograph</h3>
-          <p class="lede">One open palm in daylight, fingers slightly apart, no filter. Both palms if you want them.</p>
+          <p class="lede">One open palm in daylight, fingers slightly apart, no filter. Both palms if that is what you paid for.</p>
         </li>
         <li>
           <div class="n">02</div>
-          <h3>Pay $10</h3>
-          <p class="lede">PayPal to mapkomah@gmail.com. Keep the order ID. That ID matches payment, photo, and report.</p>
+          <h3>Pay</h3>
+          <p class="lede">Gumroad. One palm $10. Both palms $20. Keep the sale ID from the receipt.</p>
         </li>
         <li>
           <div class="n">03</div>
           <h3>Report by email</h3>
-          <p class="lede">A written reading in English, within two working days after a usable photo and a completed payment. Monday–Friday.</p>
+          <p class="lede">Email the clear photograph with that sale ID. The English reading arrives within two working days. Monday–Friday.</p>
         </li>
       </ol>
     </section>
 
     <section id="order">
-      <p class="kicker">Order · $10</p>
-      <h2>A reading of one palm, or both</h2>
-      <p class="lede">PayPal takes the $10. Then email the photograph to mapkomah@gmail.com with the order ID. PayPal cannot carry image files.</p>
+      <p class="kicker">Order</p>
+      <h2>One palm $10. Both palms $20.</h2>
+      <p class="lede">The reading is written only after a successful Gumroad payment and a clear photograph. Gumroad does not take the image. Email it to mapkomah@gmail.com with the sale ID in the subject.</p>
 
       <form id="desk-form">
         <label class="field">Email for the report
@@ -150,24 +150,13 @@
           <span>I understand this is entertainment, not science. It does not predict the future. It is not medical, psychological, legal, or financial advice. Photographs are used only to write and send this reading.</span>
         </label>
         <p class="err hidden" id="err"></p>
-        <button type="submit">Prepare order $10</button>
+        <button type="submit">Continue to Gumroad</button>
       </form>
 
       <div class="ready hidden" id="ready">
-        <p class="kicker">Order ID</p>
-        <h3 id="oid" style="margin:0;font-style:italic;font-size:1.6rem"></h3>
-        <p class="lede">Pay $10 with PayPal. Then email the palm photograph(s) to mapkomah@gmail.com with this order ID in the subject.</p>
-        <form id="paypal" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="mapkomah@gmail.com">
-          <input type="hidden" name="item_name" value="Palm Desk reading (entertainment, not science)">
-          <input type="hidden" name="amount" value="10.00">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="item_number" id="pp-item" value="">
-          <input type="hidden" name="custom" id="pp-custom" value="">
-          <button type="submit">Pay $10 with PayPal</button>
-        </form>
+        <p class="kicker">Pay, then send the photograph</p>
+        <p class="lede">On Gumroad, choose one palm or both. After payment, email the clear photograph to mapkomah@gmail.com. Put the Gumroad sale ID in the subject.</p>
+        <a class="btn" href="https://arhitektahaosa.gumroad.com/l/palmreading" data-gumroad-single-product="true">Pay with Gumroad</a>
         <a class="btn ghost" id="mail" href="mailto:mapkomah@gmail.com">Open the photo email</a>
       </div>
     </section>
@@ -176,11 +165,12 @@
   <footer>
     <div class="inner">
       <p style="font-family:Fraunces,serif;font-style:italic;color:var(--fg)">Palm Desk</p>
-      <p>Entertainment only. Not a science. Not a prediction. Desk: <a href="mailto:mapkomah@gmail.com">mapkomah@gmail.com</a></p>
-      <p><a href="DISCLAIMER.md">Disclaimer</a> · <a href="docs/PHOTO-GUIDE.md">Photograph</a> · <a href="LICENSE">License</a></p>
+      <p>Entertainment only. Not a science. Not a prediction. Photographs: <a href="mailto:mapkomah@gmail.com">mapkomah@gmail.com</a></p>
+      <p><a href="DISCLAIMER.md">Disclaimer</a> · <a href="docs/PHOTO-GUIDE.md">Photograph</a> · <a href="https://arhitektahaosa.gumroad.com/l/palmreading">Gumroad</a> · <a href="LICENSE">License</a></p>
     </div>
   </footer>
 
+  <script src="https://gumroad.com/js/gumroad.js"></script>
   <script>
     const form = document.getElementById("desk-form");
     const err = document.getElementById("err");
@@ -200,16 +190,10 @@
         err.classList.remove("hidden");
         return;
       }
-      const d = new Date();
-      const stamp = d.getFullYear() + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0");
-      const id = "PD-" + stamp + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
-      document.getElementById("oid").textContent = id;
-      document.getElementById("pp-item").value = id;
-      document.getElementById("pp-custom").value = id + " | " + email;
-      const sub = encodeURIComponent("Palm Desk order " + id);
+      const sub = encodeURIComponent("Palm Desk photo — Gumroad sale ID");
       const body = encodeURIComponent(
-        "Order ID: " + id + "\nEmail for the report: " + email + (given ? "\nName: " + given : "") +
-        "\n\nPlease find the palm photograph(s) attached.\n\nI understand this is entertainment, not science."
+        "Gumroad sale ID: \nEmail for the report: " + email + (given ? "\nName: " + given : "") +
+        "\n\nPlease find the palm photograph(s) attached. One palm if the payment was $10. Both palms if the payment was $20.\n\nI understand this is entertainment, not science."
       );
       document.getElementById("mail").href = "mailto:mapkomah@gmail.com?subject=" + sub + "&body=" + body;
       document.getElementById("ready").classList.remove("hidden");
